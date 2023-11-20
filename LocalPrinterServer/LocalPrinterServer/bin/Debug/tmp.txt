@@ -1,0 +1,75 @@
+
+
+
+                            Windows Printer Test Page
+     You have correctly installed your Generic / Text Only on 
+     DESKTOP-2DJNKNK.
+     PRINTER PROPERTIES
+     Submitted       02:07:19
+     Time:
+     Date:            20/ 11/ 2023
+     User Name:      DESKTOP-2DJNKNK\infinitysky
+     Computer        DESKTOP-2DJNKNK
+     Name:
+     Printer         127.0.0.1
+     Name:
+     Printer         Generic / Text Only
+     Model:
+     Color           No
+     Support:
+     Port            127.0.0.1
+     Name(s):
+     Data            RAW
+     Format:
+     Printer 
+     Location:
+     Print           winprint
+     Processor:
+     Comment:
+     OS              Windows x64
+     Environ...:
+     PRINT DRIVER PROPERTIES
+     Driver          Generic / Text Only
+     Name:
+     Driver          Type 3 - User Mode
+     Type:
+     Driver          10.0.19041.1
+     Version:
+     ADDITIONAL PRINT DRIVER FILES
+      C:\Windows\system32\spool\DRIVERS\x64\3\TTYRES.DLL
+      C:\Windows\system32\spool\DRIVERS\x64\3\TTY.INI
+      C:\Windows\system32\spool\DRIVERS\x64\3\TTY.DLL
+      C:\Windows\system32\spool\DRIVERS\x64\3\TTYUI.DLL
+      C:\Windows\system32\spool\DRIVERS\x64\3\TTYUI.HLP
+      C:\Windows\system32\spool\DRIVERS\x64\3\UNIRES.DLL
+      C:\Windows\system32\spool\DRIVERS\x64\3\STDNAMES.GPD
+      C:\Windows\system32\spool\DRIVERS\x64\3\STDDTYPE.GDL
+      C:\Windows\system32\spool\DRIVERS\x64\3\STDSCHEM.GDL
+      C:\Windows\system32\spool\DRIVERS\x64\3\STDSCHMX.GDL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

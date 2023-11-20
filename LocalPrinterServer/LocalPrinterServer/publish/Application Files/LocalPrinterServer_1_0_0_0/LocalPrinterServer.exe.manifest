@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="LocalPrinterServer.exe" version="1.0.0.0" publicKeyToken="1eb8d9abef741484" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="ApiServer.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LocalPrinterServer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="LocalPrinterServer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IniFileParser.dll" size="21504">
+      <assemblyIdentity name="IniFileParser" version="2.1.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>P5IWT2imdBkJLc8HDieukl7UV4kB9QqlG6EynX/egj0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LocalPrinterServer.exe" size="700936">
+      <assemblyIdentity name="LocalPrinterServer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xA7AQ0O1eysgRDL6em2osffV5qde3Oju5RzDPlUxhck=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RawPrint.NetStd.dll" size="12800">
+      <assemblyIdentity name="RawPrint.NetStd" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>oRU1T/WdCHYu5JinaXDIhhvd0dbWP8ZwMbs6k1UAc0s=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SuperSimpleTcp.dll" size="62464">
+      <assemblyIdentity name="SuperSimpleTcp" version="3.0.13.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>q0fc1oIJEWkOjdBUnDCRLm3jITEcz4LpB6lCakXgW2o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ApiServer.ico" size="161862">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YHT4eehjgj1mGSCJ/3M94pOmSEhLgtnmIdZMu/BG7rI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="LocalPrinterServer.exe.config" size="184">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FihlZtVNgcNyH37Pf0Jtll3jZOm+L55ijXNjtoS2/mo=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-2DJNKNK\infinitysky" issuerKeyHash="d1ef64e1a8e9502e7a4a3c28740ac016a554b152" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>wvCk61KuhHq9ysH2iyGztaI4HmlEvmJJC9QWeq/k434=</DigestValue></Reference></SignedInfo><SignatureValue>Rgw0TiQpsVE2796TCSVG2hPut2WE/EnHaQvjOo704XXAmFFEOGI4E4eM0N7NKiYHf3hBh2mtjZnuOf++0IEiMzmVXcpW4c8A9CK+RcLTghDz07GYoSFykaLJtikMIq26XJU4aIwO0NSvJsoGEh9Ai6XuRIHq1uMIp/Iba0O078Q=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uVAHloIdhIsPpRXAXiFmTZWEQNX4UUWYHBhrTKQ71mBjBe0uoFhyecFNvVu0mF/RAvHsCshMHO8fUlegWjZkWItB/iWNKjjl+EIm5UhgXdnPefN33DRsji0iZZKJygYk3ErfzEBoDbILWIGDCXrkD1SfOSsiyxMMqYjRgX0IHTk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7ee3e4af7a16d40b4962be44691e38a2b5b3218bf6c1cabd7a84ae52eba4f0c2" Description="" Url=""><as:assemblyIdentity name="LocalPrinterServer.exe" version="1.0.0.0" publicKeyToken="1eb8d9abef741484" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-2DJNKNK\infinitysky</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ppNah4GtWysF+PwiKumOEqO+Qv7+5lANw4R/9QGGcmM=</DigestValue></Reference></SignedInfo><SignatureValue>tT7V9rhGTSlWbVwsGYYIM90SNED+yJqebmEbump9d4apfb1Darcm4PGVEWQ6eEp0cr3ubiHFp7Klp3+Mcd1WCmhGEHIgd2jB7FUSmcfoHpSdC5084H8gXLGZICSxOsYmxsiPMdHsXI4Ker2da8/RYUi+sfS9547ut/uYi5tqBtc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uVAHloIdhIsPpRXAXiFmTZWEQNX4UUWYHBhrTKQ71mBjBe0uoFhyecFNvVu0mF/RAvHsCshMHO8fUlegWjZkWItB/iWNKjjl+EIm5UhgXdnPefN33DRsji0iZZKJygYk3ErfzEBoDbILWIGDCXrkD1SfOSsiyxMMqYjRgX0IHTk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICBTCCAW6gAwIBAgIQE46j0u1aqplAWRbXoG1cQTANBgkqhkiG9w0BAQsFADBBMT8wPQYDVQQDHjYARABFAFMASwBUAE8AUAAtADIARABKAE4ASwBOAEsAXABpAG4AZgBpAG4AaQB0AHkAcwBrAHkwHhcNMjMxMTIwMDQ0NDIyWhcNMjQxMTE5MTA0NDIyWjBBMT8wPQYDVQQDHjYARABFAFMASwBUAE8AUAAtADIARABKAE4ASwBOAEsAXABpAG4AZgBpAG4AaQB0AHkAcwBrAHkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALlQB5aCHYSLD6UVwF4hZk2VhEDV+FFFmBwYa0ykO9ZgYwXtLqBYcnnBTb1btJhf0QLx7ArITBzvH1JXoFo2ZFiLQf4ljSo45fhCJuVIYF3Zz3nzd9w0bI4tImWSicoGJNxK38xAaA2yC1iBgwl65A9UnzkrIssTDKmI0YF9CB05AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAHMFqw07qz+KuukB4Elv4sTYMRy6Pqd0sQ7CRsRNj+zYwbByKdWcbfDVC5sf1aojPwTzuNyEzFtQ+2SF5EICvxcvnucdLZvQokOHo0ehyOvpf0/OMpcsMLeh2Mu744k4F9zV9aK/U7Pd7VVbqB+41mragu+lOiVgauoL6XQXMg/E=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
