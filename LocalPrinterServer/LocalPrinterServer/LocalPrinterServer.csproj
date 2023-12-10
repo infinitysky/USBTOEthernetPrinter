@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>LocalPrinterServer</RootNamespace>
     <AssemblyName>LocalPrinterServer</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <TargetFrameworkProfile />
@@ -80,7 +80,7 @@
       <HintPath>..\packages\RawPrint.NetStd-2.0.1.0.0\lib\netstandard2.0\RawPrint.NetStd.dll</HintPath>
     </Reference>
     <Reference Include="SuperSimpleTcp, Version=3.0.13.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SuperSimpleTcp.3.0.13\lib\net48\SuperSimpleTcp.dll</HintPath>
+      <HintPath>..\packages\SuperSimpleTcp.3.0.13\lib\net461\SuperSimpleTcp.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

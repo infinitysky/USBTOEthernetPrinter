@@ -4,17 +4,17 @@
   <description asmv2:publisher="LocalPrinterServer" asmv2:product="LocalPrinterServer" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="true" mapFileExtensions="true" />
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
-    <framework targetVersion="4.8" profile="Full" supportedRuntime="4.0.30319" />
+    <framework targetVersion="4.6.1" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="LocalPrinterServer.exe.manifest" size="7050">
+    <dependentAssembly dependencyType="install" codebase="LocalPrinterServer.exe.manifest" size="74595">
       <assemblyIdentity name="LocalPrinterServer.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Ssm7zs1v/aOl5WkVOPDmv+pQlfLIee1yz0i3nrdK5Ms=</dsig:DigestValue>
+        <dsig:DigestValue>TcW7AhttKIIRajjtWg9itdgznZXkEyugYtF8D8nFA0k=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
